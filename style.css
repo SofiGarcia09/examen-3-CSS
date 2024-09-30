@@ -1,0 +1,45 @@
+#pageHeader h1 {
+    text-align: center;     
+    margin-top: 40px; 
+}
+
+body { 
+    background-color: black;
+     color: white; 
+    
+}
+
+#supportingText p {
+    text-align:left;
+}
+
+
+#lselect ul li {
+    position: relative;
+    list-style: disc;
+    padding: 6px ; 
+    margin-top: 5px;
+}
+
+#lselect ul li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+#lselect ul li::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 50%; 
+    border-bottom: 2px dotted white; 
+}
+
+ul {
+    padding-left: 7em; 
+}
+
+.archives{
+    padding-left: 2em;
+}
+
